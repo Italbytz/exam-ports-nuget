@@ -7,6 +7,7 @@ namespace ExamPorts
     {
         Boolean Scored { get; set; }
         string Lecture { get; set; }
+        string Sheet { get; set; }
         string Student { get; set; }
         List<ITask> Tasks { get; set; }
         string FileName { get; set; }
