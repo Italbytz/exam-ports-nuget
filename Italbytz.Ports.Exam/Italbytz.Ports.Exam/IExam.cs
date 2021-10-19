@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ExamPorts
+namespace Italbytz.Ports.Exam
 {
     public interface IExam
     {

@@ -1,4 +1,4 @@
-﻿namespace ExamPorts
+﻿namespace Italbytz.Ports.Exam
 {
     public interface ITask
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ExamPorts
+namespace Italbytz.Ports.Exam
 {
     public interface ISolver<TParameters, TSolution>
     {
