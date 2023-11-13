@@ -4,10 +4,16 @@
 		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
 		<Nullable>enable</Nullable>
 		<PackOnBuild>true</PackOnBuild>
-		<PackageVersion>0.4.1</PackageVersion>
+		<PackageVersion>0.5.0</PackageVersion>
 		<Authors>Robin Nunkesser</Authors>
 		<PackageLicenseUrl>https://github.com/Italbytz/nuget-ports-exam/blob/main/LICENSE</PackageLicenseUrl>
 		<PackageProjectUrl>https://github.com/Italbytz/nuget-ports-exam</PackageProjectUrl>
 		<Description>A set of helpful interfaces for exams to use with Ports and Adapters.</Description>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	  <LangVersion>9.0</LangVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	  <LangVersion>9.0</LangVersion>
 	</PropertyGroup>
 </Project>
