@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
 		<Nullable>enable</Nullable>
 		<PackOnBuild>true</PackOnBuild>
-		<PackageVersion>0.5.0</PackageVersion>
+		<PackageVersion>9.0.1</PackageVersion>
 		<Authors>Robin Nunkesser</Authors>
-		<PackageLicenseUrl>https://github.com/Italbytz/nuget-ports-exam/blob/main/LICENSE</PackageLicenseUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/Italbytz/nuget-ports-exam</PackageProjectUrl>
 		<Description>A set of helpful interfaces for exams to use with Ports and Adapters.</Description>
 	</PropertyGroup>
